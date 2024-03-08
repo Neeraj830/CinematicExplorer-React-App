@@ -21,13 +21,12 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                Dive deeper into the Neeraj's cinema world with our comprehensive movie website. 
+                From timeless classics to the latest blockbusters, we offer a diverse selection to cater to every movie lover's taste. 
+                Explore curated lists, insightful reviews, and exclusive behind-the-scenes content.
+                Immerse yourself in the magic of storytelling and join us on an unforgettable cinematic journey.
                 </div>
+                <div className="infoText">@Neeraj cinema world</div>
                 <div className="socialIcons">
                     <span className="icon">
                         <FaFacebookF />
