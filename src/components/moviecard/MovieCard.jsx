@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import dayjs from "dayjs";
 import { useNavigate } from "react-router-dom";
@@ -9,9 +10,11 @@ import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 import PosterFallback from "../../assets/no-poster.png";
 
+// eslint-disable-next-line react/prop-types
 const MovieCard = ({ data, fromSearch, mediaType }) => {
     const { url } = useSelector((state) => state.home);
     const navigate = useNavigate();
+    // eslint-disable-next-line react/prop-types
     const posterUrl = data.poster_path
         ? url.poster + data.poster_path
         : PosterFallback;
